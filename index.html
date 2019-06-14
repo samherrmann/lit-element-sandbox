@@ -1,0 +1,16 @@
+<head>
+  <script type="module" src="dist/my-element.js"></script>
+</head>
+<body>
+  <my-element></my-element>
+  <script>
+    // Reference to custom element
+    const el = document.getElementsByTagName('my-element')[0];
+
+    // Changing the foo attribute on my-element.
+    setTimeout(() => el.setAttribute('foo', 'bar'), 3000)
+
+    // Listen to custom event
+    el.addEventListener('my-event', e => console.log(e))
+  </script>
+</body>

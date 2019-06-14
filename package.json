@@ -1,0 +1,15 @@
+{
+  "name": "lit-element-sandbox",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "polymer serve"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "polymer-cli": "^1.9.10"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.0",
+    "typescript": "^3.5.1"
+  }
+}
